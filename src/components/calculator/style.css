@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  box-shadow: 0px 3px 15px #d4d1d4;
+}
+
+.header .title {
+  font-size: 24px;
+  font-weight: 700;
+  color: cornflowerblue;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.contentBox {
+  margin: 0 auto;
+  width: 350px;
+  height: 350px;
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.boxChild{
+  left: 105px;
+  width: 130px;
+  height: 560px;
+  background:  #4286f4;
+  transform: rotate(45deg); 
+  margin: 0 auto;
+  top: -100px;
+  position: absolute;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.contentBox .subTitle {
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  padding-top: 25px;
+  z-index: 2;
+}
+
+.subCount {
+  color: white;
+  position: relative;
+  width: 300px;
+  height: 15px;
+  margin: 0 auto;
+  top: -150px;
+  z-index: 2;
+  display: block;
+}
+
+.contentBody {
+  display: flex;
+  flex: 1;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxSide1 {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+}
+
+.boxSide2 {
+  cursor: pointer;
+  flex: 1;
+  font-size: 20px;
+  position: relative;
+}
+
+.boxMain {
+  flex: 3.5;
+  font-size: 50px;
+  font-weight: 780px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  z-index: 2;
+}
+
+.component {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  top: -130px;
+  z-index: 2;
+  display: block;
+}
+
+.button {
+  cursor: pointer;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 2px;
+  text-align: center;
+  width: calc(100% / 4 - 2px);
+  background: rgb(230, 230, 231);
+  float: left;
+  height: 85px;
+  line-height: 85px;
+}
+
+.buttonCount {
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 4px;
+  text-align: center;
+  width: calc(100% / 4 - 4px);
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  float: left;
+  height: 81px;
+  line-height: 81px;
+  color: white;
+}
